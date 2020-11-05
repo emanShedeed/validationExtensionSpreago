@@ -1,0 +1,195 @@
+/* 
+  Localization.strings
+  PrayerMate
+
+  Created by eman shedeed on 3/16/20.
+  Copyright © 2020 eman shedeed. All rights reserved.
+*/
+
+//Loader
+"loader.messageTitle" = "Loading";
+"internetFailMessage" = "Please check your internet connection";
+"alertBtnTitle" = "OK";
+
+//custom Splach Screen
+"customSplash.weclomeLbl1" = "Welcome to ";
+"customSplash.weclomeLbl2" = "PrayerMate";
+"customSplash.descriptionLbl" = "Lorem ipsum dolor sit amet, consetetur
+ sadipscing elitr, sed diam.";
+
+//Language view controller
+"Language.title" = "Language";
+"Language.subTitle" = "Please choose your language";
+"Language.nextBtnTitle" = "Next";
+"Language.englishRadioButtonTitle" = "  English";
+"Language.arabicRadioButtonTitle" = "  Arabic";
+
+ //Location view controller
+"Location.title" = "Location";
+"Location.subTitle" = "Please choose your location";
+"Location.finishBtnTitle" = "Next";
+"Location.addressTxtPlaceHolder" = "  Select location from map";
+"Location.locateMeBtnTitle" = "  Locate me";
+"Location.alertMessage" = "please allow app to know your location or Press Locate me to choose location" ;
+
+//Calendar viewController
+"CalendarVC.titleLbl" = "Calendar";
+"CalendarVC.subTitleLbl" = "Please choose your preferred calendar";
+"CalendarVC.appleLbl" = "Apple Calendar";
+"CalendarVC.googleLbl" = "Google Calendar";
+"CalendarVC.MSLbl" = "MS Calendar";
+"CalendarVC.MSSignInSuccessMessage"="successfully signed in microsoft";
+"CalendarVC.GoogleSignInSuccessMessage"="successfully signed in Google";
+"CalendarVC.finishbtntitle" = "Finish";
+"CalendarVC.toastLbl" = "You must select at Least one calendar.";
+"CalendarVC.SigningInproblemAlertTitle" = "Error signing in";
+"CalendarVC.MicrosoftSigningInproblemAlertDesc" = "the user canceled the sign-in flow to Microsoft account.";
+
+"CalendarVC.GoogleSigningInproblemAlertDesc" = "the user canceled the sign-in flow to Google account.";
+
+//Map view controller
+"map.searchBarPlaceHolderTitle" = "Search for places";
+"map.okBtnTitle" = "Ok";
+
+//home viewController
+"Home.timeRemainsLbl" = "Time Remains";
+"Home.exportMessageLbl" = " Choose which prayer times to export.";
+"Home.importBtnTitle" = "  Export prayer times to calendar";
+"Home.fajrPrayerLblTitle" = "Fajr";
+"Home.sunrisePrayerLblTitle" = "Sunrise";
+"Home.zuhrPrayerLblTitle" = "zuhr";
+"Home.asrPrayerLblTitle" = "Asr";
+"Home.maghribPrayerLblTitle" = "Maghrib";
+"Home.ishaPrayerLblTitle" = "Isha";
+"Home.PreviousDateToasterMessage"="can't select date before today.";
+"Home.moreThanMonthToasterMessage"= "import Period can't exceed one Month.";
+"Home.exportedSuccessfullyToasterMessage"= "Prayer times exported successfully to calendar.";
+"Home.chooseDateRangeToasterMessage"= "Please select date range.";
+"Home.CalendarDoneBtnTitle"= "Done";
+"Home.CalendarLabelTitle"= "Please select start and end date for exporting";
+"Home.errorGettingAPIdata"= "can't get data from the server.";
+
+//Exporting viewController
+"ExportingVC.navigationBackButton" = "Export Prayer times";
+"ExportingVC.switchTitleLbl" = "Export all times to calender";
+"ExportingVC.switchDetailLbl" = "You can export it manually";
+"ExportingVC.ExportBtn" = "Export";
+
+
+
+
+//Settings viewController
+"Settings.titleLbl" = "Settings";
+"Settings.location" = "Location";
+"Settings.language" ="Language";
+"Settings.prayerTimeBuffer" = "Prayer time buffer";
+"Settings.importToCalendar" = "Export to calendar";
+"Settings.calendarMethod" = "Calendar method";
+"Settings.about" = "About";
+"Settings.faqs" = "Faqs";
+"Settings.inviteFriends" = "Invite friends";
+
+//Settings Location viewController
+"SettingsLocation.title" = "Location";
+"SettingsLocation.changeLocationLblTitle" = "Search location automatically";
+"SettingsLocation.changeLocationBtnTitle" = "Change location";
+
+//Language viewController
+"Language.en" = "English";
+"Language.ar" = "Arabic";
+"Language.done" = "Done";
+
+//PrayerTimeBuffer viewController
+"PrayerTimeBufferVC.titleLbl" = "Adjust a default buffer to all prayer times";
+"PrayerTimeBufferVC.navBackButtonText" = "Prayer time buffer";
+"PrayerTimeBufferVC.minsBefore" = " M before & ";
+"PrayerTimeBufferVC.minsAfter" = " M after";
+"PrayerTimeBufferVC.hoursBefore" = " H before & ";
+"PrayerTimeBufferVC.hoursAfter" = " H after";
+"PrayerTimeBufferVC.actionSheetDefault" = "15 minutes before & after";
+"PrayerTimeBufferVC.actionSheetCustom" = "Custom";
+"PrayerTimeBufferVC.fajrPrayerLblTitle" = "Fajr";
+"PrayerTimeBufferVC.sunrisePrayerLblTitle" = "Sunrise";
+"PrayerTimeBufferVC.zuhrPrayerLblTitle" = "zuhr";
+"PrayerTimeBufferVC.asrPrayerLblTitle" = "Asr";
+"PrayerTimeBufferVC.maghribPrayerLblTitle" = "Maghrib";
+"PrayerTimeBufferVC.ishaPrayerLblTitle" = "Isha";
+
+//customAction viewController
+"customActionVC.titleLbl" = "Custom Buffer";
+"customActionVC.beforeTxtPlaceHolder" = "Time";
+"customActionVC.afterTxtPlaceHolder" = "Time";
+"customActionVC.beforeTitleLbl" = "Before";
+"customActionVC.afterTitleLbl" = "After";
+"customActionVC.minutesTitleLbl" = "Minutes";
+"customActionVC.hoursTitleLbl" = "Hours";
+"customActionVC.donebtntitle" = "Done";
+"customActionVC.minutesValidationMessage"="Minutes from 0 to 60 minute";
+"customActionVC.hoursValidationMessage"="Hours from 0 to 24 hour";
+
+
+//ImportToCalendar viewController
+"ImportToCalendarVC.titleLbl" = "Calendar";
+"ImportToCalendarVC.subTitleLbl" = "Choose your preferred calendar";
+"ImportToCalendarVC.appleLbl" = "Apple Calendar";
+"ImportToCalendarVC.googleLbl" = "Google Calendar";
+"ImportToCalendarVC.MSLbl" = "MS Calendar";
+"ImportToCalendarVC.MSSignInSuccessMessage"="successfully signed in microsoft";
+"ImportToCalendarVC.GoogleSignInSuccessMessage"="successfully signed in Google";
+"ImportToCalendarVC.donebtntitle" = "Done";
+"ImportToCalendarVC.toastLbl" = "You must select at Least one calendar.";
+"ImportToCalendarVC.SigningInproblemAlertTitle" = "Error signing in";
+"ImportToCalendarVC.MicrosoftSigningInproblemAlertDesc" = "the user canceled the sign-in flow to Microsoft account.";
+
+"ImportToCalendarVC.GoogleSigningInproblemAlertDesc" = "the user canceled the sign-in flow to Google account.";
+
+//CalendarMethod viewController
+"CalendarMethod.titleLbl" = "Calender Method";
+"CalendarMethod.egyptianGeneralAuthorityOfSurveyTitle" = "Egyptian General Authority of Survey";
+"CalendarMethod.universityOfIslamicSciencesShafi" = "University Of Islamic Sciences, Karachi (Shafi)";
+"CalendarMethod.islamicCircleOfNorthAmerica" = "Islamic Circle of North America";
+"CalendarMethod.muslimWorldLeague" = "Muslim World League";
+"CalendarMethod.ummAlQura" = "Umm Al-Qura";
+
+//FAQs viewController
+"FAQs.titleLbl" = "FAQs";
+"FAQs.firstQuestionTitle" = "What is Prayer mate?";
+"FAQs.firstQuestionDescription" = "Lorem ipsum dolor sit amet, consetetur sadips elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.";
+
+"FAQs.secondQuestionTitle" = "Why would I use prayer mate?";
+"FAQs.secondQuestionDescription" = "Lorem ipsum dolor sit amet, consetetur sadips elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.";
+
+"FAQs.thirdQuestionTitle" = "How can I enable notification on the app?";
+"FAQs.thirdQuestionDescription" = "Lorem ipsum dolor sit amet, consetetur sadips elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.";
+
+"FAQs.fourthQuestionTitle" = "How can I be safe while using prayer mate?";
+"FAQs.fourthQuestionDescription" = "Lorem ipsum dolor sit amet, consetetur sadips elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.";
+
+"FAQs.fifthQuestionTitle" = "How prayer mate works?";
+"FAQs.fifthQuestionDescription" = "Lorem ipsum dolor sit amet, consetetur sadips elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.";
+
+"FAQs.sixthQuestionTitle" = "Where is prayer mate available?";
+"FAQs.sixthQuestionDescription" = "Lorem ipsum dolor sit amet, consetetur sadips elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.";
+
+
+//About viewController
+"About.titleLbl" = "About Prayer Mate";
+"About.descriptionLbl" = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam .";
+"About.contactUs" ="Contact us :";
+
+//Local Notification
+"fajrPrayerNotificationTitle" = "it's Fajr time";
+"sunrisePrayerNotificationTitle" = "it's Sunrise time";
+"zuhrPrayerNotificationTitle" = "it's zuhr time";
+"asrPrayerNotificationTitle" = "it's Asr time";
+"maghribPrayerNotificationTitle" = "it's Maghrib time";
+"ishaPrayerNotificationTitle" = "it's Isha time";
+"openAppNotificationTitle" = "prayer times notifications";
+"openAppNotificationDescription" ="you have to open the app if you still need to receive prayer time notifications";
+"alertToEnableNotifications" = "please enable local Notification if you want to receive prayer times alert";
+"alertToRenewImportPeriodTitle" = "Renew Import Period";
+"alertToRenewImportPeriodDescription" = "please notice that the import period will end tommorow at one of your calendar";
+//"language.description" = "اللغه";
+
+"language" = "English";
+

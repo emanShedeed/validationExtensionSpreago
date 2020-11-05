@@ -1,0 +1,155 @@
+ 
+ query users{
+   users{
+     id
+     name
+     email
+     get_notifications
+   
+     is_active
+     is_verified
+     email_verified_at
+     created_at
+     updated_at
+     Locale
+     city
+     country
+     address
+     image
+     cities_id
+     countries_id
+     gender
+     phone
+     typeName
+   }
+ }
+ query countries {
+   countries{
+     ...countryInfo
+   }
+ }
+ fragment countryInfo on Countries{
+ id
+ name
+ created_at
+ updated_at
+ cities
+ {
+ id
+ name
+}
+ }
+ 
+ mutation loginSocialite($SocialiteInput: SocialiteInput!) {
+    loginSocialite(data: { SocialiteInput:$SocialiteInput
+                  }){
+       BearerTokenResponse{
+         access_token
+       }
+       user{
+         id
+         name
+         email
+         is_verified
+         type{
+         id
+        }
+       }
+       Status{
+         check
+         message
+       }
+     }
+   }
+
+mutation login($attempt: attempt!) {
+   login(data: { attempt:$attempt
+                 }){
+      BearerTokenResponse{
+        access_token
+      }
+      user{
+        id
+        name
+        email
+        is_verified
+              type{
+               id
+      }
+      }
+      Status{
+        check
+        message
+      }
+    }
+  }
+mutation sendPinCodeForRegister($email: Email!) {
+sendPinCodeForRegister(email: $email){
+    Status{
+        check
+        message
+      }
+}
+}
+
+mutation verifyPinCode($email:Email!,$pin_code:String!){
+    verifyPinCode(data: { email:$email,pin_code:$pin_code })
+{
+    Status{
+        check
+        message
+      }
+}
+}
+
+mutation sendPinCodeForpasswordresets($email: Email!) {
+sendPinCodeForpasswordresets(email: $email){
+    Status{
+        check
+        message
+      }
+}
+}
+
+mutation passwordresets($forgotPasswordInput:forgotPasswordinput!,$verifyPinCodeInput:verifyPinCodeInput!) {
+ passwordresets(data: { forgotPasswordInput:$forgotPasswordInput,verifyPinCodeInput:$verifyPinCodeInput
+               }){
+    BearerTokenResponse{
+      access_token
+    }
+    user{
+      id
+      name
+      email
+      is_verified
+        type{
+         id
+}
+    }
+    Status{
+      check
+      message
+    }
+  }
+}
+mutation register($newUserInput:newUserInput!, $verifyPinCodeInput:verifyPinCodeInput, $SocialiteInput: SocialiteInput!) {
+   register(data: {newUserInput:$newUserInput, verifyPinCodeInput:$verifyPinCodeInput, SocialiteInput:$SocialiteInput
+                 }){
+      BearerTokenResponse{
+        access_token
+      }
+      user{
+        id
+        name
+        email
+        is_verified
+        type{
+        id
+      }
+      }
+      Status{
+        check
+        message
+      }
+    }
+  }

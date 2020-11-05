@@ -1,0 +1,186 @@
+/* 
+  Localization.strings
+  PrayerMate
+
+  Created by eman shedeed on 3/16/20.
+  Copyright © 2020 eman shedeed. All rights reserved.
+*/
+//Loader
+"loader.messageTitle" = "تحميل";
+"internetFailMessage" = "من فضلك تأكد من اتصالك بالانترنت";
+"alertBtnTitle" = "تم";
+//custom Splach Screen
+"customSplash.weclomeLbl1" = " PrayerMate";
+"customSplash.weclomeLbl2" = "Welcome to ";
+"customSplash.descriptionLbl" = "Lorem ipsum dolor sit amet, consetetur
+ sadipscing elitr, sed diam.";
+
+//Language view controller
+"Language.title" = "اللغة";
+"Language.subTitle" = "من فضلك اختر اللغة";
+"Language.nextBtnTitle" = "التالي";
+"Language.englishRadioButtonTitle" = "إنجليزي  ";
+"Language.arabicRadioButtonTitle" = "عربي  ";
+//Location view controller
+"Location.title" = "الموقع";
+"Location.subTitle" = "من فضلك اختر موقعك";
+"Location.finishBtnTitle" = "التالي";
+"Location.addressTxtPlaceHolder" = "اختر الموقع من الخريطة  ";
+"Location.locateMeBtnTitle" = "حدد موقعي  ";
+"Location.alertMessage" = "من فضلك اسمح للتطبيق بمعرفة موقعه او اضغط -تحديد الموقع -لاختيار مووقعك" ;
+
+//Calendar viewController
+"CalendarVC.titleLbl" = "التقويم";
+"CalendarVC.subTitleLbl" = "من فضلك اختر تقويمك المفضل";
+"CalendarVC.appleLbl" = "تقويم ابل";
+"CalendarVC.googleLbl" = "تقويم جوجل";
+"CalendarVC.MSLbl" = "تقويم مايكروسوفت";
+"CalendarVC.MSSignInSuccessMessage"="تم تسجيل الدخول بنجاح لحساب مايكروسوفت";
+"CalendarVC.GoogleSignInSuccessMessage"="تم تسجيل الدخول بنجاح لحساب جوجل";
+"CalendarVC.finishbtntitle" = "إكمال";
+"CalendarVC.toastLbl" = "يجب ان تختار تقويم واحد علي الأقل.";
+"CalendarVC.SigningInproblemAlertTitle" = "خطأ في تسجيل الدخول.";
+"CalendarVC.MicrosoftSigningInproblemAlertDesc" = "الغى المستخدم متابعة تسجيل الدخول لحساب مايكروسوفت";
+"CalendarVC.GoogleSigningInproblemAlertDesc" = "الغى المستخدم متابعة تسجيل الدخول لحساب جوجل";
+
+//Map view controller
+"map.searchBarPlaceHolderTitle" = "ابحث عن الأماكن";
+"map.okBtnTitle" = "تم";
+
+//home viewController
+"Home.timeRemainsLbl" = "الوقت المتبقي";
+"Home.exportMessageLbl" = "اختر أوقات الصلاة التي تريد إضافتها للتقويم.";
+"Home.importBtnTitle" = "إضافة اوقات الصلاة للتقويم  ";
+"Home.fajrPrayerLblTitle" = "الفجر";
+"Home.sunrisePrayerLblTitle" = "الشروق";
+"Home.zuhrPrayerLblTitle" = "الظهر";
+"Home.asrPrayerLblTitle" = "العصر";
+"Home.maghribPrayerLblTitle" = "المغرب";
+"Home.ishaPrayerLblTitle" = "العشاء";
+"Home.PreviousDateToasterMessage"="لا يمكن اختيار تاريخ سابق لتاريخ اليوم.";
+"Home.moreThanMonthToasterMessage"= "مدة تصدير مواعيد الصلاة لا يمكنها تجاوز شهر.";
+"Home.exportedSuccessfullyToasterMessage"= "تم إضافة أوقات الصلاة بنجاح إلى التقويم.";
+"Home.chooseDateRangeToasterMessage"= "يرجى تحديد نطاق التاريخ.";
+"Home.CalendarDoneBtnTitle"= "تم";
+"Home.CalendarLabelTitle"= "من فضلك اختر تاريخ البدء والانتهاء لاضافتها";
+"Home.errorGettingAPIdata"= "لا نستطيع الحصول علي مواعيد الصلاة من الخادم.";
+
+//Exporting viewController
+"ExportingVC.navigationBackButton" = "إضافة مواقيت الصلاة للتقويم";
+"ExportingVC.switchTitleLbl" = "إضافة جميع مواقيت الصلاة للتقويم";
+"ExportingVC.switchDetailLbl" = "يمكنك اختيار المواقيت";
+"ExportingVC.ExportBtn" = "إضافة اوقات الصلاة للتقويم";
+
+//Settings viewController
+"Settings.titleLbl" = "الاعدادات";
+"Settings.location" = "الموقع";
+"Settings.language" ="اللغة";
+"Settings.prayerTimeBuffer" = "مدة مواقيت الصلاة";
+"Settings.importToCalendar" = "اضافة أوقات الصلاة للتقويم";
+"Settings.calendarMethod" = "التقويم";
+"Settings.about" = "عن التطبيق";
+"Settings.faqs" = "الأسئلة الشائعة";
+"Settings.inviteFriends" = "دعوة الأصدقاء";
+
+//Settings Location viewController
+"SettingsLocation.title" = "الموقع";
+"SettingsLocation.changeLocationLblTitle" = "تحديد الموقع تلقائيا";
+"SettingsLocation.changeLocationBtnTitle" = "تغيير الموقع";
+
+//Language viewController
+"Language.en" = "الإنجليزية";
+"Language.ar" = "العربيه";
+"Language.done" = "تأكيد";
+
+//PrayerTimeBuffer viewController
+"PrayerTimeBufferVC.titleLbl" = "أضافة مدة افتراضية لكل مواقيت الصلاة";
+"PrayerTimeBufferVC.navBackButtonText" = "مدة مواقيت الصلاة";
+"PrayerTimeBufferVC.minsBefore" = " د قبل & ";
+"PrayerTimeBufferVC.minsAfter" = " د بعد";
+"PrayerTimeBufferVC.hoursBefore" = " س قبل & ";
+"PrayerTimeBufferVC.hoursAfter" = " س بعد";
+"PrayerTimeBufferVC.actionSheetDefault" = "15 دقيقة قبل وبعد";
+"PrayerTimeBufferVC.actionSheetCustom" = "محدد";
+"PrayerTimeBufferVC.fajrPrayerLblTitle" = "الفجر";
+"PrayerTimeBufferVC.sunrisePrayerLblTitle" = "الشروق";
+"PrayerTimeBufferVC.zuhrPrayerLblTitle" = "الظهر";
+"PrayerTimeBufferVC.asrPrayerLblTitle" = "العصر";
+"PrayerTimeBufferVC.maghribPrayerLblTitle" = "المغرب";
+"PrayerTimeBufferVC.ishaPrayerLblTitle" = "العشاء";
+
+//customAction viewController
+"customActionVC.titleLbl" = "نسبة محددة";
+"customActionVC.beforeTxtPlaceHolder" = "التوقيت";
+"customActionVC.afterTxtPlaceHolder" = "التوقيت";
+"customActionVC.beforeTitleLbl" = "قبل";
+"customActionVC.afterTitleLbl" = "بعد";
+"customActionVC.minutesTitleLbl" = "دقائق";
+"customActionVC.hoursTitleLbl" = "ساعات";
+"customActionVC.donebtntitle" = "تأكيد";
+"customActionVC.minutesValidationMessage"="الدقائق من ٠ ل ٦٠ دقيقة";
+"customActionVC.hoursValidationMessage"="الساعات من ٠ ل ٢٤ ساعة";
+
+//ImportToCalendar viewController
+"ImportToCalendarVC.titleLbl" = "التقويم";
+"ImportToCalendarVC.subTitleLbl" = "اختر تقويمك المفضل";
+"ImportToCalendarVC.appleLbl" = "تقويم ابل";
+"ImportToCalendarVC.googleLbl" = "تقويم جوجل";
+"ImportToCalendarVC.MSLbl" = "تقويم مايكروسوفت";
+"ImportToCalendarVC.MSSignInSuccessMessage"="تم تسجيل الدخول بنجاح لحساب مايكروسوفت";
+"ImportToCalendarVC.GoogleSignInSuccessMessage"="تم تسجيل الدخول بنجاح لحساب جوجل";
+"ImportToCalendarVC.donebtntitle" = "تأكيد";
+"ImportToCalendarVC.toastLbl" = "يجب ان تختار تقويم واحد علي الأقل.";
+"ImportToCalendarVC.SigningInproblemAlertTitle" = "خطأ في تسجيل الدخول.";
+"ImportToCalendarVC.MicrosoftSigningInproblemAlertDesc" = "الغى المستخدم متابعة تسجيل الدخول لحساب مايكروسوفت";
+"ImportToCalendarVC.GoogleSigningInproblemAlertDesc" = "الغى المستخدم متابعة تسجيل الدخول لحساب جوجل";
+
+//CalendarMethod viewController
+"CalendarMethod.titleLbl" = "التقويم";
+"CalendarMethod.egyptianGeneralAuthorityOfSurveyTitle" = "الهيئة المصرية العامة للمساحة";
+"CalendarMethod.universityOfIslamicSciencesShafi" = "جامعة العلوم الإسلامية ، كراتشي (شافعي)";
+"CalendarMethod.islamicCircleOfNorthAmerica" = "الدائرة الإسلامية لأمريكا الشمالية";
+"CalendarMethod.muslimWorldLeague" = "رابطة العالم الإسلامي";
+"CalendarMethod.ummAlQura" = "أم القرى";
+
+//FAQs viewController
+"FAQs.titleLbl" = "الأسئلة الشائعة";
+"FAQs.firstQuestionTitle" = "ماذا عن prayer Mate؟";
+"FAQs.firstQuestionDescription" = "يقدم جوجل حزمة أدوات مكتبية إلكترونية قوية ضمن حساب غوغل الخاص بك، حيث يمكنك الوصول إلى تطبيق محرّر مستندات غوغل Google Docs، وتطبيق الملاحظات Google Keep، بالإضافة إلى خدمة تخزين سحابي مجانية عبر منصة جوجل درايف، ولا شك أن هذه مجموعة ممتازة من التطبيقات للكتابيعتبر تطبيق مستندات غوغل Google Docs ";
+
+"FAQs.secondQuestionTitle" = "ماذا عن prayer Mate؟";
+"FAQs.secondQuestionDescription" = "يقدم جوجل حزمة أدوات مكتبية إلكترونية قوية ضمن حساب غوغل الخاص بك، حيث يمكنك الوصول إلى تطبيق محرّر مستندات غوغل Google Docs، وتطبيق الملاحظات Google Keep، بالإضافة إلى خدمة تخزين سحابي مجانية عبر منصة جوجل درايف، ولا شك أن هذه مجموعة ممتازة من التطبيقات للكتابيعتبر تطبيق مستندات غوغل Google Docs ";
+
+"FAQs.thirdQuestionTitle" = "ماذا عن prayer Mate؟";
+"FAQs.thirdQuestionDescription" = "يقدم جوجل حزمة أدوات مكتبية إلكترونية قوية ضمن حساب غوغل الخاص بك، حيث يمكنك الوصول إلى تطبيق محرّر مستندات غوغل Google Docs، وتطبيق الملاحظات Google Keep، بالإضافة إلى خدمة تخزين سحابي مجانية عبر منصة جوجل درايف، ولا شك أن هذه مجموعة ممتازة من التطبيقات للكتابيعتبر تطبيق مستندات غوغل Google Docs ";
+
+"FAQs.fourthQuestionTitle" = "ماذا عن prayer Mate؟";
+"FAQs.fourthQuestionDescription" = "يقدم جوجل حزمة أدوات مكتبية إلكترونية قوية ضمن حساب غوغل الخاص بك، حيث يمكنك الوصول إلى تطبيق محرّر مستندات غوغل Google Docs، وتطبيق الملاحظات Google Keep، بالإضافة إلى خدمة تخزين سحابي مجانية عبر منصة جوجل درايف، ولا شك أن هذه مجموعة ممتازة من التطبيقات للكتابيعتبر تطبيق مستندات غوغل Google Docs ";
+
+"FAQs.fifthQuestionTitle" = "ماذا عن prayer Mate؟";
+"FAQs.fifthQuestionDescription" = "يقدم جوجل حزمة أدوات مكتبية إلكترونية قوية ضمن حساب غوغل الخاص بك، حيث يمكنك الوصول إلى تطبيق محرّر مستندات غوغل Google Docs، وتطبيق الملاحظات Google Keep، بالإضافة إلى خدمة تخزين سحابي مجانية عبر منصة جوجل درايف، ولا شك أن هذه مجموعة ممتازة من التطبيقات للكتابيعتبر تطبيق مستندات غوغل Google Docs ";
+
+"FAQs.sixthQuestionTitle" = "ماذا عن prayer Mate؟";
+"FAQs.sixthQuestionDescription" = "يقدم جوجل حزمة أدوات مكتبية إلكترونية قوية ضمن حساب غوغل الخاص بك، حيث يمكنك الوصول إلى تطبيق محرّر مستندات غوغل Google Docs، وتطبيق الملاحظات Google Keep، بالإضافة إلى خدمة تخزين سحابي مجانية عبر منصة جوجل درايف، ولا شك أن هذه مجموعة ممتازة من التطبيقات للكتابيعتبر تطبيق مستندات غوغل Google Docs ";
+
+//About viewController
+"About.titleLbl" = "عن Prayer Mate";
+"About.descriptionLbl" = "يقدم جوجل حزمة أدوات مكتبية إلكترونية قوية ضمن حساب غوغل الخاص بك، حيث يمكنك الوصول إلى تطبيق محرّر مستندات غوغل Google Docs، وتطبيق الملاحظات Google Keep، بالإضافة إلى خدمة تخزين سحابي مجانية عبر منصة جوجل درايف، ولا شك أن هذه مجموعة ممتازة من التطبيقات للكتابيعتبر تطبيق مستندات غوغل Google Docs من أفضل تطبيقات تحرير المستندات حسب أراء المستخدمين حيث بلغ عدد مرات تثبيت هذا التطبيق عبر متجر غوغل بلاي فقط أكثر من نصف مليار مرة، وأصبحت مستندات غوغل الآن هى البديل الأكثر مرن ";
+"About.contactUs" ="تواصل معنا :";
+
+//Local Notification
+"fajrPrayerNotificationTitle" = "اذان الفجر";
+"sunrisePrayerNotificationTitle" = "الشروق";
+"zuhrPrayerNotificationTitle" = "اذان الظهر";
+"asrPrayerNotificationTitle" = "اذان العصر";
+"maghribPrayerNotificationTitle" = "اذان المغرب";
+"ishaPrayerNotificationTitle" = "اذان العشاء";
+"openAppNotificationTitle" = "اشعارات اوقات الصلاة";
+"openAppNotificationDescription" = "عليك فتح التطبيق اذا كنت مازلت ترغب في تلقي اشعارات اوقات الصلاة";
+"alertToEnableNotifications" = "الرجاء تمكين الإشعارات إذا كنت تريد تلقي تنبيه لأوقات الصلاة";
+"alertToRenewImportPeriodTitle" = "تجديد فترة الاستيراد";
+"alertToRenewImportPeriodDescription" = "يرجى ملاحظة أن فترة إضافة أوقات الصلاة للتقويم ستنتهي غدًا";
+//"language.description" = "اللغه";
+
+
+"language" = "العربيه";
+
